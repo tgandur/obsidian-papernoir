@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "background-primary": "f8f5eb",
+    "background-secondary": "f2ebd9",
+    "canvas-background": "f8f5eb",
+    "canvas-border-color": "e5dcc7",
+    "background-modifier-border": "e5dcc7",
+    "background-modifier-cover": "f2ebd9",
+    "color-accent": "c56e29",
+    "hover-accent": "e48a52",
+    "interactive-accent": "a95823",
+    "text-selection": "d9b48c",
+    "link-unresolved-color": "9e6d40",
+    "alt-heading-color": "3d405b",
+    "secondary-accent": "d9b48c",
+    "canvas-max-width": "700px",
+    "dark-background-primary": "000000",
+    "dark-background-secondary": "0a0a0a",
+    "dark-canvas-background": "000000",
+    "dark-canvas-border-color": "1a1a1a",
+    "dark-background-modifier-border": "1a1a1a",
+    "dark-color-accent": "b18eff",
+    "dark-hover-accent": "ffd369",
+    "dark-interactive-accent": "9965ff",
+    "dark-link-unresolved-color": "4cd964",
+    "dark-alt-heading-color": "ff79c6",
+    "dark-secondary-accent": "60e0ff",
+    "dark-canvas-max-width": "700px"
+  }
+}
