@@ -13,7 +13,7 @@
     "link-unresolved-color": "9e6d40",
     "alt-heading-color": "3d405b",
     "secondary-accent": "d9b48c",
-    "highlighted-border-color": "e2cab6",  // Updated here!
+    "highlighted-border-color": "e2cab6",  
     "canvas-max-width": "700px",
     
     "dark-background-primary": "000000",
