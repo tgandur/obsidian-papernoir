@@ -1,4 +1,9 @@
-/* Paper Noir Theme Snippet */
+/* -------------------------------
+   Paper Noir Theme
+   Light: Soft, warm, paper-like
+   Dark: Pure blacks + Dracula-style accents
+--------------------------------- */
+
 /* Light Mode */
 .theme-light {
   --background-primary: #f8f5eb;
@@ -7,6 +12,7 @@
   --canvas-border-color: #e5dcc7;
   --background-modifier-border: #e5dcc7;
   --background-modifier-cover: #f2ebd9;
+  
   --color-accent: #c56e29;
   --hover-accent: #e48a52;
   --interactive-accent: #a95823;
@@ -14,7 +20,13 @@
   --link-unresolved-color: #9e6d40;
   --alt-heading-color: #3d405b;
   --secondary-accent: #d9b48c;
+  --highlighted-border-color: #e2cab6; /* Updated! */
   --canvas-max-width: 700px;
+
+  /* Toggle styling */
+  --toggle-background-on: #c56e29;
+  --toggle-background-off: #e5dcc7;
+  --toggle-thumb-background: #ffffff;
 }
 
 /* Dark Mode */
@@ -24,6 +36,7 @@
   --canvas-background: #000000;
   --canvas-border-color: #1a1a1a;
   --background-modifier-border: #1a1a1a;
+  
   --color-accent: #b18eff;
   --hover-accent: #ffd369;
   --interactive-accent: #9965ff;
@@ -31,5 +44,11 @@
   --link-unresolved-color: #4cd964;
   --alt-heading-color: #ff79c6;
   --secondary-accent: #60e0ff;
+  --highlighted-border-color: #b18eff; /* Dark mode highlight */
   --canvas-max-width: 700px;
+
+  /* Toggle styling */
+  --toggle-background-on: #b18eff;
+  --toggle-background-off: #1a1a1a;
+  --toggle-thumb-background: #000000;
 }
