@@ -1,54 +1,67 @@
-/* -------------------------------
-   Paper Noir Theme
-   Light: Soft, warm, paper-like
-   Dark: Pure blacks + Dracula-style accents
---------------------------------- */
+/* Paper Noir Theme Snippet with Extended Colors */
 
 /* Light Mode */
 .theme-light {
-  --background-primary: #f8f5eb;
-  --background-secondary: #f2ebd9;
-  --canvas-background: #f8f5eb;
-  --canvas-border-color: #e5dcc7;
-  --background-modifier-border: #e5dcc7;
-  --background-modifier-cover: #f2ebd9;
+  --background-primary: #F8F5EB;
+  --background-secondary: #F2EBD9;
+  --canvas-background: #F8F5EB;
+  --canvas-border-color: #E5DCC7;
+  --background-modifier-border: #E5DCC7;
   
-  --color-accent: #c56e29;
-  --hover-accent: #e48a52;
-  --interactive-accent: #a95823;
-  --text-selection: #d9b48c;
-  --link-unresolved-color: #9e6d40;
-  --alt-heading-color: #3d405b;
-  --secondary-accent: #d9b48c;
-  --highlighted-border-color: #e2cab6; /* Updated! */
-  --canvas-max-width: 700px;
+  --color-accent: #C56E29;
+  --hover-accent: #E48A52;
+  --interactive-accent: #A95823;
+  --text-selection: #D9B48C;
+  --link-unresolved-color: #9E6D40;
+  --highlighted-border-color: #E6B48D;
 
-  /* Toggle styling */
-  --toggle-background-on: #c56e29;
-  --toggle-background-off: #e5dcc7;
-  --toggle-thumb-background: #ffffff;
+  --graph-line-color: #D9CBB8;
+  --graph-node-color: #5A3825;
+  --graph-node-active-color: #C56E29;
+  --graph-tag-node-color: #2DA6D4;
+  --graph-attachment-node-color: #C56E29;
+  --graph-unresolved-node-color: #2DA6D4;
+
+  /* Extended colors */
+  --color-red: #E78C8C;
+  --color-orange: #EAB174;
+  --color-yellow: #E4D88C;
+  --color-green: #A8C69F;
+  --color-cyan: #9CD0D0;
+  --color-blue: #8AB7E0;
+  --color-purple: #B9A5D0;
+  --color-pink: #E3A0C4;
 }
 
 /* Dark Mode */
 .theme-dark {
   --background-primary: #000000;
-  --background-secondary: #0a0a0a;
+  --background-secondary: #0A0A0A;
   --canvas-background: #000000;
-  --canvas-border-color: #1a1a1a;
-  --background-modifier-border: #1a1a1a;
+  --canvas-border-color: #1A1A1A;
+  --background-modifier-border: #1A1A1A;
   
-  --color-accent: #b18eff;
-  --hover-accent: #ffd369;
-  --interactive-accent: #9965ff;
-  --text-selection: #ffd369;
-  --link-unresolved-color: #4cd964;
-  --alt-heading-color: #ff79c6;
-  --secondary-accent: #60e0ff;
-  --highlighted-border-color: #b18eff; /* Dark mode highlight */
-  --canvas-max-width: 700px;
+  --color-accent: #B18EFF;
+  --hover-accent: #FFD369;
+  --interactive-accent: #9965FF;
+  --text-selection: #FFD369;
+  --link-unresolved-color: #4CD964;
+  --highlighted-border-color: #C7BAE4;
 
-  /* Toggle styling */
-  --toggle-background-on: #b18eff;
-  --toggle-background-off: #1a1a1a;
-  --toggle-thumb-background: #000000;
+  --graph-line-color: #666666;
+  --graph-node-color: #B18EFF;
+  --graph-node-active-color: #B18EFF;
+  --graph-tag-node-color: #60E0FF;
+  --graph-attachment-node-color: #B18EFF;
+  --graph-unresolved-node-color: #60E0FF;
+
+  /* Extended colors */
+  --color-red: #FF6E6E;
+  --color-orange: #FFB27A;
+  --color-yellow: #FFF176;
+  --color-green: #8BD17C;
+  --color-cyan: #76E6E6;
+  --color-blue: #6DB7FF;
+  --color-purple: #CAA0FF;
+  --color-pink: #FFA0CF;
 }
